@@ -1,0 +1,19 @@
+! File:  print.pnt
+! Pen table definition file for the HP Laserjet 4MV Printer
+!
+! Pen 1: Datum Curves plotted as thin lines in a phantom font
+!pen 1 pattern 0.2 0.05 0.01 0.05 0.01 0.05 in; thickness 0.003 in 0.050 WAS 0.010
+pen 1 thickness 0.0050 in 
+! Pen 2: Letter, Dimension, axis, hatching balloons and centerlines 
+! Also used for hidden lines, phantom lines and magenta lines 0.005 WAS 0.010
+pen 2 thickness 0.005 in; letter_color,magenta_color,half_tone_color
+! Pen 4: Heavy Lines: drawing object lines, Section cutting planes
+pen 4 thickness 0.010 in; drawing_color
+! Pen 5: Sheetmetal (green)
+pen 5 thickness 0.005 in; attention_color
+! Pen 6: Section entities (cyan)
+pen 6 thickness 0.005 in; section_color 
+! Pen 7: Dimmed tangent edges, grayed dimensions and text
+pen 7 thickness 0.002 in; dimmed_color
+! Pen 8: Spline Surface grid, red side of datum planes
+pen 8 thickness 0.007 in; highlite_color,edge_highlite_color
